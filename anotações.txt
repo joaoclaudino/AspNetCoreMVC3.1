@@ -1,0 +1,10 @@
+dotnet new mvc -o GerenciadorCondominios
+code -r GerenciadorCondominios
+
+dotnet new classlib -o GerenciadorCondominios.BLL
+
+dotnet ef migrations add InitialCreate --project GerenciadorCondominios.DAL --startup-project  GerenciadorCondominios
+
+dotnet ef  database update --project GerenciadorCondominios.DAL --startup-project  GerenciadorCondominios
+
+dotnet build "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.sln"

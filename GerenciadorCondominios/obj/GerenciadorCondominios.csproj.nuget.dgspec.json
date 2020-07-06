@@ -1,0 +1,246 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/GerenciadorCondominios.csproj": {}
+  },
+  "projects": {
+    "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/GerenciadorCondominios.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/GerenciadorCondominios.BLL.csproj",
+        "projectName": "GerenciadorCondominios.BLL",
+        "projectPath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/GerenciadorCondominios.BLL.csproj",
+        "packagesPath": "/home/joao/.nuget/packages/",
+        "outputPath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joao/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/GerenciadorCondominios.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/GerenciadorCondominios.DAL.csproj",
+        "projectName": "GerenciadorCondominios.DAL",
+        "projectPath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/GerenciadorCondominios.DAL.csproj",
+        "packagesPath": "/home/joao/.nuget/packages/",
+        "outputPath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joao/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/GerenciadorCondominios.BLL.csproj": {
+                "projectPath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/GerenciadorCondominios.BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/GerenciadorCondominios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/GerenciadorCondominios.csproj",
+        "projectName": "GerenciadorCondominios",
+        "projectPath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/GerenciadorCondominios.csproj",
+        "packagesPath": "/home/joao/.nuget/packages/",
+        "outputPath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/joao/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/GerenciadorCondominios.BLL.csproj": {
+                "projectPath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/GerenciadorCondominios.BLL.csproj"
+              },
+              "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/GerenciadorCondominios.DAL.csproj": {
+                "projectPath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/GerenciadorCondominios.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
