@@ -43,6 +43,7 @@ namespace GerenciadorCondominios
             services.ConfigurarRepositorios();
             services.ConfigurarNomeUsuario();
             services.ConfigurarSenhaUsuario();
+            services.ConfigurarCookies();
 
             services.AddControllersWithViews();
         }
