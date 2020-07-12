@@ -1,0 +1,4 @@
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/Debug/netcoreapp3.0/GerenciadorCondominios.DAL.csprojAssemblyReference.cache
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/Debug/netcoreapp3.0/GerenciadorCondominios.DAL.AssemblyInfoInputs.cache
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/Debug/netcoreapp3.0/GerenciadorCondominios.DAL.AssemblyInfo.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/Debug/netcoreapp3.0/GerenciadorCondominios.DAL.csproj.CoreCompileInputs.cache

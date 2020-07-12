@@ -8,3 +8,5 @@ dotnet ef migrations add InitialCreate --project GerenciadorCondominios.DAL --st
 dotnet ef  database update --project GerenciadorCondominios.DAL --startup-project  GerenciadorCondominios
 
 dotnet build "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.sln"
+
+https://localhost:5001/Usuarios/Registro

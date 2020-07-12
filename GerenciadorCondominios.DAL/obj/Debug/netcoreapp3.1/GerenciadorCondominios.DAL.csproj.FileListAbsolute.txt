@@ -1,0 +1,15 @@
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/bin/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.deps.json
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/bin/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.runtimeconfig.json
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/bin/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.runtimeconfig.dev.json
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/bin/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.dll
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/bin/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.pdb
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/bin/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.dll
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/bin/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.pdb
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.csprojAssemblyReference.cache
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.AssemblyInfoInputs.cache
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.AssemblyInfo.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.csproj.CoreCompileInputs.cache
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.csproj.CopyComplete
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.dll
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.pdb
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.DAL.genruntimeconfig.cache

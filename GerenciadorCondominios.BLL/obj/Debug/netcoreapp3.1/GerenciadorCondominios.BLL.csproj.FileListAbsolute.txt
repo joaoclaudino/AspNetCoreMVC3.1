@@ -1,0 +1,12 @@
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/bin/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.deps.json
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/bin/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.runtimeconfig.json
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/bin/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.runtimeconfig.dev.json
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/bin/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.dll
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/bin/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.pdb
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.csprojAssemblyReference.cache
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.AssemblyInfoInputs.cache
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.AssemblyInfo.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.csproj.CoreCompileInputs.cache
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.dll
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.pdb
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/obj/Debug/netcoreapp3.1/GerenciadorCondominios.BLL.genruntimeconfig.cache

@@ -27,7 +27,7 @@
         },
         {
             "label": "watch",
-            "command": "dotnet",
+            "command": "dotnet clean; dotnet build",
             "type": "process",
             "args": [
                 "watch",

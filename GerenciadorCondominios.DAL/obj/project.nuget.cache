@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CUv98/6oR4js/By4b0rAip/FM66/fuhjipAkVRPnAfdP60akK7abH+oE1E7K62Vx53loDnLMHBOgOuVutAaauQ==",
+  "dgSpecHash": "gXSWXLm2Z5eFufz4JT2JfMnlcoYcdGB0qT6ox/oeHrkh1ahlUVxvGePuX1YZJ02Xn2pdIzrXyxtQ69G+f0DiUg==",
   "success": true,
   "projectFilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.DAL/GerenciadorCondominios.DAL.csproj",
   "expectedPackageFiles": [
@@ -31,16 +31,10 @@
     "/home/joao/.nuget/packages/microsoft.extensions.primitives/3.1.2/microsoft.extensions.primitives.3.1.2.nupkg.sha512",
     "/home/joao/.nuget/packages/npgsql/4.1.3/npgsql.4.1.3.nupkg.sha512",
     "/home/joao/.nuget/packages/npgsql.entityframeworkcore.postgresql/3.1.2/npgsql.entityframeworkcore.postgresql.3.1.2.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/home/joao/.nuget/packages/system.collections.immutable/1.7.0/system.collections.immutable.1.7.0.nupkg.sha512",
     "/home/joao/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "/home/joao/.nuget/packages/system.diagnostics.diagnosticsource/4.7.0/system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.0/system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.text.encodings.web/4.6.0/system.text.encodings.web.4.6.0.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.text.json/4.6.0/system.text.json.4.6.0.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    "/home/joao/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

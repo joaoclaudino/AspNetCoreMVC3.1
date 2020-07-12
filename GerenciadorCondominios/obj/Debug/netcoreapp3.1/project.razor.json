@@ -20526,6 +20526,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Usuarios/Analise.cshtml",
+      "TargetPath": "Views\\Usuarios\\Analise.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

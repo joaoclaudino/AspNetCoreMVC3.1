@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "F2Ei+P27kmzPvt5xTmQ8NAJLA9SBCtnP7QKofuEedWN8BnKpEYhSzIt6C7hjvSh6J2aq2KxnywC4D7ECDvMzIg==",
+  "dgSpecHash": "376/wqwZxqeOkdYsVI2TSqDQvGNSqGmM+mcVG3D3Kk6kyzUM7WmA7T0a3/0jmrd4dprbKEsDbpqsl19jC4p/Jg==",
   "success": true,
   "projectFilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.BLL/GerenciadorCondominios.BLL.csproj",
   "expectedPackageFiles": [
@@ -29,14 +29,9 @@
     "/home/joao/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.2/microsoft.extensions.logging.abstractions.3.1.2.nupkg.sha512",
     "/home/joao/.nuget/packages/microsoft.extensions.options/3.1.2/microsoft.extensions.options.3.1.2.nupkg.sha512",
     "/home/joao/.nuget/packages/microsoft.extensions.primitives/3.1.2/microsoft.extensions.primitives.3.1.2.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
     "/home/joao/.nuget/packages/system.collections.immutable/1.7.0/system.collections.immutable.1.7.0.nupkg.sha512",
     "/home/joao/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.diagnostics.diagnosticsource/4.7.0/system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.0/system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
-    "/home/joao/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    "/home/joao/.nuget/packages/system.diagnostics.diagnosticsource/4.7.0/system.diagnostics.diagnosticsource.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

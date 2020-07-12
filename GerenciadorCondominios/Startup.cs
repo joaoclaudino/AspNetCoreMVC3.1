@@ -11,6 +11,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using GerenciadorCondominios.DAL.Interfaces;
+using GerenciadorCondominios.DAL.Repositorios;
+using GerenciadorCondominios.BLL.Models;
+using GerenciadorCondominios.Extensions;
 
 namespace GerenciadorCondominios
 {
@@ -29,6 +33,17 @@ namespace GerenciadorCondominios
             services.AddDbContext<Contexto>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("Default")));
 
+            services.AddIdentity<Usuario, Funcao>().AddEntityFrameworkStores<Contexto>();
+
+            services.AddAuthentication();
+            services.AddAuthorization();
+            
+            // services.AddTransient<IUsuarioRepositorio, UsuarioRepositorio>();
+
+            services.ConfigurarRepositorios();
+            services.ConfigurarNomeUsuario();
+            services.ConfigurarSenhaUsuario();
+
             services.AddControllersWithViews();
         }
 
@@ -45,11 +60,11 @@ namespace GerenciadorCondominios
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
