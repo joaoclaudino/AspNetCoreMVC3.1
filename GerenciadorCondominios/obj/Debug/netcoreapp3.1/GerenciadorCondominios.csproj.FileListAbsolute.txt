@@ -81,3 +81,6 @@
 /home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ModalExcluir.cshtml.g.cs
 /home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/Atualizar.cshtml.g.cs
 /home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/RedefinirSenha.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Veiculos/Default.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Veiculos/Create.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Veiculos/Edit.cshtml.g.cs

@@ -17868,6 +17868,55 @@
         }
       },
       {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__VeiculosViewComponentTagHelper",
+        "AssemblyName": "GerenciadorCondominios",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:veiculos",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [
+              {
+                "Name": "id",
+                "NameComparison": 0,
+                "Value": null,
+                "ValueComparison": 0,
+                "Diagnostics": [],
+                "Metadata": {}
+              }
+            ],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "MVC.ViewComponent",
+            "Name": "id",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "id"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__VeiculosViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Veiculos"
+        }
+      },
+      {
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -20521,6 +20570,11 @@
   "RootNamespace": "GerenciadorCondominios",
   "Documents": [
     {
+      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/Components/Veiculos/Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Veiculos\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/_Confirmacoes.cshtml",
       "TargetPath": "Views\\Shared\\_Confirmacoes.cshtml",
       "FileKind": "mvc"
@@ -20616,8 +20670,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/Veiculos/Create.cshtml",
+      "TargetPath": "Views\\Shared\\Veiculos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/_SideNav.cshtml",
       "TargetPath": "Views\\Shared\\_SideNav.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/Veiculos/Edit.cshtml",
+      "TargetPath": "Views\\Shared\\Veiculos\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
