@@ -10,3 +10,6 @@ dotnet ef  database update --project GerenciadorCondominios.DAL --startup-projec
 dotnet build "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios.sln"
 
 https://localhost:5001/Usuarios/Registro
+
+
+usuario teste

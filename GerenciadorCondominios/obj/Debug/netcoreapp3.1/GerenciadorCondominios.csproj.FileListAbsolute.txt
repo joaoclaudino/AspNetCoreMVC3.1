@@ -68,3 +68,16 @@
 /home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/GerenciadorCondominios.dll
 /home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/GerenciadorCondominios.pdb
 /home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/GerenciadorCondominios.genruntimeconfig.cache
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/Login.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Logout.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/Index.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/Reprovado.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Confirmacoes.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Nav.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_SideNav.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_BoasVindas.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/GerenciarUsuario.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/MinhasInformacoes.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ModalExcluir.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/Atualizar.cshtml.g.cs
+/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/obj/Debug/netcoreapp3.1/Razor/Views/Usuarios/RedefinirSenha.cshtml.g.cs
