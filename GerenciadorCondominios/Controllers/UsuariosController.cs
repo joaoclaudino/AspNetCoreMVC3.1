@@ -1,4 +1,4 @@
-using GerenciadorCondominios.BLL.Models;
+﻿using GerenciadorCondominios.BLL.Models;
 using GerenciadorCondominios.DAL.Interfaces;
 using GerenciadorCondominios.ViewModels;
 using Microsoft.AspNetCore.Authorization;
@@ -55,7 +55,7 @@ namespace GerenciadorCondominios.Controllers
                     using (FileStream fileStream = new FileStream(Path.Combine(diretorioPasta, nomeFoto), FileMode.Create))
                     {
                         await foto.CopyToAsync(fileStream);
-                        model.Foto = "Imagens/" + nomeFoto;
+                        model.Foto = "~/Imagens/" + nomeFoto;
                     }
                 }
 
@@ -201,7 +201,7 @@ namespace GerenciadorCondominios.Controllers
 
         public IActionResult AcessoNegado()
         {
-            return View();
+            return View(User.Identity.Name);
         }
 
         [Authorize(Roles = "Administrador,Sindico")]
@@ -344,7 +344,7 @@ namespace GerenciadorCondominios.Controllers
                     using (FileStream fileStream = new FileStream(Path.Combine(diretorioPasta, nomeFoto), FileMode.Create))
                     {
                         await foto.CopyToAsync(fileStream);
-                        viewModel.Foto = "Imagens/" + nomeFoto;
+                        viewModel.Foto = "~/Imagens/" + nomeFoto;
                     }
                 }
 

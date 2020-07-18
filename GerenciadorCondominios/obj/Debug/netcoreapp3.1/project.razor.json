@@ -17917,6 +17917,31 @@
         }
       },
       {
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__UltimasMovimentacoesViewComponentTagHelper",
+        "AssemblyName": "GerenciadorCondominios",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:ultimas-movimentacoes",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__UltimasMovimentacoesViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "UltimasMovimentacoes"
+        }
+      },
+      {
         "Kind": "Components.Bind",
         "Name": "Bind",
         "AssemblyName": "Microsoft.AspNetCore.Components",
@@ -20568,132 +20593,6 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "GerenciadorCondominios",
-  "Documents": [
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/Components/Veiculos/Default.cshtml",
-      "TargetPath": "Views\\Shared\\Components\\Veiculos\\Default.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/_Confirmacoes.cshtml",
-      "TargetPath": "Views\\Shared\\_Confirmacoes.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Usuarios/Index.cshtml",
-      "TargetPath": "Views\\Usuarios\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Usuarios/Analise.cshtml",
-      "TargetPath": "Views\\Usuarios\\Analise.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Usuarios/RedefinirSenha.cshtml",
-      "TargetPath": "Views\\Usuarios\\RedefinirSenha.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Usuarios/Reprovado.cshtml",
-      "TargetPath": "Views\\Usuarios\\Reprovado.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/_BoasVindas.cshtml",
-      "TargetPath": "Views\\Shared\\_BoasVindas.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Usuarios/MinhasInformacoes.cshtml",
-      "TargetPath": "Views\\Usuarios\\MinhasInformacoes.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Usuarios/Login.cshtml",
-      "TargetPath": "Views\\Usuarios\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Usuarios/Registro.cshtml",
-      "TargetPath": "Views\\Usuarios\\Registro.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Usuarios/GerenciarUsuario.cshtml",
-      "TargetPath": "Views\\Usuarios\\GerenciarUsuario.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/_ModalExcluir.cshtml",
-      "TargetPath": "Views\\Shared\\_ModalExcluir.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/_Logout.cshtml",
-      "TargetPath": "Views\\Shared\\_Logout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/_Nav.cshtml",
-      "TargetPath": "Views\\Shared\\_Nav.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/Veiculos/Create.cshtml",
-      "TargetPath": "Views\\Shared\\Veiculos\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/_SideNav.cshtml",
-      "TargetPath": "Views\\Shared\\_SideNav.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/Veiculos/Edit.cshtml",
-      "TargetPath": "Views\\Shared\\Veiculos\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/joao/Documentos/GerenciadorCondominios/GerenciadorCondominios/Views/Usuarios/Atualizar.cshtml",
-      "TargetPath": "Views\\Usuarios\\Atualizar.cshtml",
-      "FileKind": "mvc"
-    }
-  ],
+  "Documents": [],
   "SerializationFormat": "0.2"
 }

@@ -86,7 +86,19 @@ namespace GerenciadorCondominios.DAL.Repositorios
                 throw ex; 
             }
         }
-
+        public async Task Inserir(List<TEntity> entity)
+        {
+            try
+            {
+                await _Contexto.AddRangeAsync(entity);
+                await _Contexto.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                
+                throw ex; 
+            }
+        }
         public async Task<TEntity> PegarPeloId(int id)
         {
             try

@@ -135,24 +135,24 @@ namespace GerenciadorCondominios.DAL.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "a9e3985d-915d-457a-853a-08ab3cd91229",
-                            ConcurrencyStamp = "961c014d-04ed-4b0b-960d-8666361204f3",
+                            Id = "73d4c394-f785-40b4-8b58-cde3d68c50cb",
+                            ConcurrencyStamp = "5ab2bf27-88b6-4a66-a336-3d2219676f37",
                             Descricao = "Morador do Prédio",
                             Name = "Morador",
                             NormalizedName = "MORADOR"
                         },
                         new
                         {
-                            Id = "b757de68-e105-4e03-b317-7539c60e03cf",
-                            ConcurrencyStamp = "f872da6e-1433-412d-b547-5b9992ced666",
+                            Id = "8505fbb7-db95-4ba2-8784-66a30660d58b",
+                            ConcurrencyStamp = "7e7ba389-5c56-4df9-b6e7-c358ddec0168",
                             Descricao = "Síndico do Prédio",
                             Name = "Sindico",
                             NormalizedName = "SINDICO"
                         },
                         new
                         {
-                            Id = "20069bb4-de52-44e4-b80a-4253ea4e3f00",
-                            ConcurrencyStamp = "cac15b70-6b72-4e87-9243-a16cd765aeb3",
+                            Id = "c2dccf27-ab5a-4972-931e-0f49d27904fe",
+                            ConcurrencyStamp = "832f0ef5-1cff-449c-ae96-d35fd255349b",
                             Descricao = "Administrador do Prédio",
                             Name = "Administrador",
                             NormalizedName = "ADMINISTRADOR"
@@ -275,10 +275,7 @@ namespace GerenciadorCondominios.DAL.Migrations
                         .HasColumnType("integer")
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
-                    b.Property<string>("AluguelId")
-                        .HasColumnType("text");
-
-                    b.Property<int?>("AluguelId1")
+                    b.Property<int>("AluguelId")
                         .HasColumnType("integer");
 
                     b.Property<DateTime?>("DataPagamento")
@@ -292,7 +289,7 @@ namespace GerenciadorCondominios.DAL.Migrations
 
                     b.HasKey("PagamentoId");
 
-                    b.HasIndex("AluguelId1");
+                    b.HasIndex("AluguelId");
 
                     b.HasIndex("UsuarioId");
 
@@ -619,7 +616,9 @@ namespace GerenciadorCondominios.DAL.Migrations
                 {
                     b.HasOne("GerenciadorCondominios.BLL.Models.Aluguel", "Aluguel")
                         .WithMany("Pagamentos")
-                        .HasForeignKey("AluguelId1");
+                        .HasForeignKey("AluguelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("GerenciadorCondominios.BLL.Models.Usuario", "Usuario")
                         .WithMany("Pagamentos")

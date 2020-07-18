@@ -16,6 +16,6 @@ namespace GerenciadorCondominios.BLL.Models
 
     public enum StatusServico
     {
-        Pendete, Resusado, Aceito
+        Pendente, Recusado, Aceito
     }
 }

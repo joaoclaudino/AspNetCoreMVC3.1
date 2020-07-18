@@ -314,8 +314,7 @@ namespace GerenciadorCondominios.DAL.Migrations
                     PagamentoId = table.Column<int>(nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     UsuarioId = table.Column<string>(nullable: true),
-                    AluguelId = table.Column<string>(nullable: true),
-                    AluguelId1 = table.Column<int>(nullable: true),
+                    AluguelId = table.Column<int>(nullable: false),
                     DataPagamento = table.Column<DateTime>(nullable: true),
                     Status = table.Column<int>(nullable: false)
                 },
@@ -323,11 +322,11 @@ namespace GerenciadorCondominios.DAL.Migrations
                 {
                     table.PrimaryKey("PK_Pagamentos", x => x.PagamentoId);
                     table.ForeignKey(
-                        name: "FK_Pagamentos_Alugueis_AluguelId1",
-                        column: x => x.AluguelId1,
+                        name: "FK_Pagamentos_Alugueis_AluguelId",
+                        column: x => x.AluguelId,
                         principalTable: "Alugueis",
                         principalColumn: "AluguelId",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Pagamentos_Usuarios_UsuarioId",
                         column: x => x.UsuarioId,
@@ -361,9 +360,9 @@ namespace GerenciadorCondominios.DAL.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Descricao", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "a9e3985d-915d-457a-853a-08ab3cd91229", "961c014d-04ed-4b0b-960d-8666361204f3", "Morador do Prédio", "Morador", "MORADOR" },
-                    { "b757de68-e105-4e03-b317-7539c60e03cf", "f872da6e-1433-412d-b547-5b9992ced666", "Síndico do Prédio", "Sindico", "SINDICO" },
-                    { "20069bb4-de52-44e4-b80a-4253ea4e3f00", "cac15b70-6b72-4e87-9243-a16cd765aeb3", "Administrador do Prédio", "Administrador", "ADMINISTRADOR" }
+                    { "73d4c394-f785-40b4-8b58-cde3d68c50cb", "5ab2bf27-88b6-4a66-a336-3d2219676f37", "Morador do Prédio", "Morador", "MORADOR" },
+                    { "8505fbb7-db95-4ba2-8784-66a30660d58b", "7e7ba389-5c56-4df9-b6e7-c358ddec0168", "Síndico do Prédio", "Sindico", "SINDICO" },
+                    { "c2dccf27-ab5a-4972-931e-0f49d27904fe", "832f0ef5-1cff-449c-ae96-d35fd255349b", "Administrador do Prédio", "Administrador", "ADMINISTRADOR" }
                 });
 
             migrationBuilder.InsertData(
@@ -443,9 +442,9 @@ namespace GerenciadorCondominios.DAL.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Pagamentos_AluguelId1",
+                name: "IX_Pagamentos_AluguelId",
                 table: "Pagamentos",
-                column: "AluguelId1");
+                column: "AluguelId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Pagamentos_UsuarioId",
